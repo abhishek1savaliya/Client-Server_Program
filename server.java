@@ -12,7 +12,6 @@ public class server{
 
         Arrays.sort(arr);
 
-        // __________________________________________________________
         OutputStream os = s.getOutputStream();
         ObjectOutputStream oos = new ObjectOutputStream(os);
         oos.writeObject(arr);
